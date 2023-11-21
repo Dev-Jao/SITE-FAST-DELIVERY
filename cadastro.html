@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Fast delivery</title>
+    <link rel="stylesheet" href="/cadastro.css">
+</head>
+<body>
+    <h1 id="CC">CADASTRO DE CLIENTES</h1>
+    <div id="cadastro">
+    <label for="nomeCliente">NOME:</label>
+    <input type="text" name="NomeCliente" id="nome">
+    <br>
+
+    <label for="IdadeCliente">IDADE:</label>
+    <input type="idade" name="idadeCliente" id="idade">
+    <br>
+
+    <label for="EmailCliente">EMAIL:</label>
+    <input type="email" name="EmailCliente" id="email">
+    <br>
+    
+    <label for="senhac">SENHA:</label>
+    <input type="password" name="senha" id="senha">
+    <br>    
+    <a href="http://127.0.0.1:5500/inicio.html"><input type="button" value="Cadastro" onclick="alerta()">
+    </a> 
+    </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <!-- CHETBOT -->
+    <df-messenger
+    intent="WELCOME"
+    chat-title="FAST_DELIVERY"
+    agent-id="04de9c9c-0fbb-4bd4-b8c1-f7a4e4984774"
+    language-code="pt-br"
+    ></df-messenger>
+</body>
+<script>
+    function alerta(){
+        alert("cadastro realizado com sucesso")
+    }
+</script>
+</html>

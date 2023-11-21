@@ -1,0 +1,45 @@
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-image: url(/img/teladefundoCD.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:#d4e4ef;
+    
+}
+
+#CC{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,;
+    color: black;
+    color: rgb(253, 253, 255);
+    width: 400px;
+    height: 92px;
+    top: 50px;
+    left: 321px;
+    padding: 24.5px, 14px, 25.5px, 15px;
+    border-radius: 8px;
+    gap: 8px;
+   
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family:'Nosifer', sans-serif ;
+    text-shadow: 0px 0px 5px black;
+}
+#cadastro{
+    background-color: transparent;
+    transform: translateX(680px) translateY(180);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 7px black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    border-radius: 30px;
+}

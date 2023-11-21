@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fast delivery</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+ <script>
+  function alerta(){
+      alert("Compra Realizada com Sucesso!!")
+  }
+</script>
+
+</head>
+<body>
+  <div id="container">
+    <header>
+      <picture>
+        <source media="(min-width: 900px)" srcset="img/logotipo.png">
+        <source media="(min-width: 600px)" srcset="img/logotipo.png">
+        <img src="img/logotipo.png" alt="logo">
+      </picture>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="https://forms.gle/pNuxVF4eA1XzDirF7">FEEDBACK</a></li>
+        <li><a href="http://127.0.0.1:5500/chetbot.html">CENTRAL DE AJUDA</a></li>
+        <li><a href="https://www.bing.com/maps?q=escola+estadual+querubina+silveira&FORM=HDRSC6">NOSSA UNIDADES</a></li>
+        <li><a href="http://127.0.0.1:5500/cadastro.html">CADASTRO NO SITE</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header>LANCHES</header>
+      
+      <section id="produtos">
+        <section class="produto">
+          <img src="img/lanchefeliz-removebg-preview.png">
+          <p>LANCHE E SALADA R$15,95</p>
+          <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>
+        </section>
+       
+        <section class="produto">
+          <img src="img/lanchefeliz-removebg-preview.png">
+          <p>LANCHE COM CHEDDAR R$17,55</p>
+          <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>       
+         </section>
+       
+         <section class="produto">
+          <img src="img/lanchefeliz-removebg-preview.png">
+          <p>LANCHE FELIZ PEQUENO R$13,55</p>
+          <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>       
+         </section>
+       
+         <section class="produto">
+          <img src="img/lanchefeliz-removebg-preview.png">
+          <p>LANCHE FELIZ MEDIO R$17,55</p>
+          <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>       
+         </section>
+         
+         <section id="produtos">
+          <section class="produto">
+            <img src="img/coca-removebg-preview.png">
+            <p>COCA COLA R$3,65</p>
+            <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>
+          </section>
+
+          <section id="produtos">
+            <section class="produto">
+              <img src="img/coca-removebg-preview.png">
+              <p>COCA COLA R$3,65</p>
+              <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>
+            </section>
+           
+            <section id="produtos">
+              <section class="produto">
+                <img src="img/coca-removebg-preview.png">
+                <p>COCA COLA  R$3,65</p>
+                <a href="http://127.0.0.1:5500/inicio.html" class="link"><input type="button" value="Comprar" onclick="alerta()" id="button"></a>
+              </section>
+             
+         
+
+        <!-- CHETBOT -->   
+         <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+             
+        <df-messenger
+        intent="WELCOME"
+        chat-title="FAST_DELIVERY"
+        agent-id="04de9c9c-0fbb-4bd4-b8c1-f7a4e4984774"
+        language-code="pt-br"
+        ></df-messenger>
+    </main>
+    <footer>
+
+    </footer>
+  </div>
+</body>
+
+</html>
